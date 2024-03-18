@@ -45,3 +45,5 @@ iwr -useb https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-S
 - ![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/c9d27374-e5a4-4988-bbe3-8a61e8ec56df)
 - Right click and select 'Run with powershell'
 - You're good to go!
+
+~made with <3
