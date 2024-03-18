@@ -24,10 +24,10 @@
 
 **This script is only possible thanks to these awesome projects:**
 
-- [Vencord](https://github.com/Vendicated/Vencord) - the best mod for discord!
-- [SpotX](https://github.com/SpotX-Official/SpotX) - a minimal spotify mod to block ads.
-- [spicetify](https://github.com/spicetify) - The best spotify mod, ever (with themes).
-- [CTT](https://github.com/ChrisTitusTech/winutil) - The best windows util.
+- [Vencord](https://github.com/Vendicated/Vencord) - the Best Mod for Discord!
+- [SpotX](https://github.com/SpotX-Official/SpotX) - a minimal Spotify Mod to block ads.
+- [spicetify](https://github.com/spicetify) - The Best Spotify Mod, ever (with themes).
+- [CTT](https://github.com/ChrisTitusTech/winutil) - The Best Windows Utility.
 
 And ofcourse a big thanks to github :D
 
