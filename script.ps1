@@ -10,7 +10,7 @@ Write-Host @"
 ##  ##  ## ##       ##       ##    ## ##     ## ##     ## ##       #### 
  ###  ###  ######## ########  ######   #######  ##     ## ######## #### 
 
-"@ -ForegroundColor  DarkMagenta
+"@ -ForegroundColor  Green
 
 # Display prompt with options
 Write-Host "1 - [Spotx]" -ForegroundColor Green
