@@ -1,8 +1,9 @@
+# ![logo][https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg?sanitize=true] PowerShell
 # A-Convenient-Script
 It's a powershell script which can install/uninstall spotx, spicetify or vencord. I aim to improvise it as time goes on.
 
-#Note 
+# Note 
 Please use PowerShell 7 to run this script.
 
-#How to run
+# How to run
 --> Working on it
