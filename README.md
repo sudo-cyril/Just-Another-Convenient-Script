@@ -30,7 +30,12 @@
 - [CTT](https://github.com/ChrisTitusTech/winutil) - The best windows util.
 
 And ofcourse a big thanks to github :D
-# Installation
-coming soon, stay tuned :)
 
-
+# How to use
+- Open Windows Powershell on your system.
+- copy the following command and paste it in your powershell window.
+```
+iwr -useb https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-Script/main/script.ps1 | iex
+```
+- Press the Enter Key
+- That's about it :D
