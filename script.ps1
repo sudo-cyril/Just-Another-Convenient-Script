@@ -15,8 +15,8 @@ Write-Host @"
 # Display prompt with options
 Write-Host "1 - [Spotx]" -ForegroundColor Green
 Write-Host "2 - [Vencord]" -ForegroundColor Yellow
-Write-Host "`e[38;2;255;165;0m3 - [Spicetify]"
-Write-Host "4 - [CTT-WinUtil]" -ForegroundColor Blue
+Write-Host "3 - [Spicetify]" -ForegroundColor Magenta
+Write-Host "4 - [CTT-WinUtil]" -ForegroundColor Blue 
 Write-Host "                                          "
 
 
@@ -112,7 +112,7 @@ switch ($userChoice) {
     3 {
         Clear-Host
         Write-Host @"
-"`e[38;2;255;165;0m                           ;
+"                          ;
                            ,d.
                            :xd
                           .ddd.
@@ -132,29 +132,29 @@ switch ($userChoice) {
       .lllc.........   .lllll.           .c,',c'  .l.       ll   .:,';c   .l:,,,,,    l;    lc  ll          l'
        .llllllllllllc;';llll
          'llllllllllllllll.
-            ;cccccccccc,`e[0m
+            ;cccccccccc,
 
-"@
-        Write-Host "`e[38;2;255;165;0mWhat do u wanna do?" -ForegroundColor Magenta
-        Write-Host "`e[38;2;255;165;0m1 - Install" -ForegroundColor Magenta
-        Write-Host "`e[38;2;255;165;0m2 - Uninstall" -ForegroundColor Magenta
+"@ -ForegroundColor Magenta
+        Write-Host "What do u wanna do?" -ForegroundColor Magenta
+        Write-Host "1 - Install" -ForegroundColor Magenta
+        Write-Host "2 - Uninstall" -ForegroundColor Magenta
         Write-Host "                                          "
         Write-Host -NoNewLine "Your Choice : " -ForegroundColor Cyan
         $spicetifyChoice = Read-Host
         switch ($spicetifyChoice) {
             1 {
-                Write-Host "`e[38;2;255;165;0mInstalling Spicetify..." -ForegroundColor Magenta
+                Write-Host "Installing Spicetify..." -ForegroundColor Magenta
                 # Code for installation
                 iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex
-                Write-Host "`e[38;2;255;165;0mSpicetify has been installed, Happy modding!" -ForegroundColor Magenta
+                Write-Host "Spicetify has been installed, Happy modding!" -ForegroundColor Magenta
             }
             2 {
-                Write-Host "`e[38;2;255;165;0mUninstalling Spicetify..." -ForegroundColor Magenta
+                Write-Host "Uninstalling Spicetify..." -ForegroundColor Magenta
                 # Code for uninstallation
                 spicetify restore
                 rmdir -r -fo $env:APPDATA\spicetify
                 rmdir -r -fo $env:LOCALAPPDATA\spicetify
-                Write-Host "`e[38;2;255;165;0mThe deed has been done, Goodbye Spicetify :(" -ForegroundColor Magenta
+                Write-Host "The deed has been done, Goodbye Spicetify :(" -ForegroundColor Magenta
             }
             default {
                 Write-Host "Invalid choice. Please select a valid option." -ForegroundColor Red
