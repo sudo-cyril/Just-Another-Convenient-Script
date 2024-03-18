@@ -7,18 +7,19 @@
 - Vencord
 - SpotX
 - Spicetify
-- CTT
+- CTT-WinUtil
 
 ## Features
-
 - Download all the popular mods from one place.
 - Saves the hassle of searching for mods and their commands.
 - Open source and free, feel free to contribute by sending a PR.
+- 
 # Compatibility
 - Currently only supports windows 7/8/8.1/10 but we're working on a script for linux too 😉
 - We aren't working a port for mac as of now as none of the script writers own one :>
+- 
 # Prerequisites
-- A windows isntallation with an internet connection and Powersell is all you need :)
+- A windows isntallation with an internet connection and Powershell is all you need :)
 ## Tech
 
 **This script is only possible thanks to these awesome projects:**
@@ -28,7 +29,7 @@
 - [spicetify](https://github.com/spicetify) - The best spotify mod, ever (with themes).
 - [CTT](https://github.com/ChrisTitusTech/winutil) - The best windows util.
 
-And of course a big thanks to github lol
+And ofcourse a big thanks to github :D
 # Installation
 coming soon, stay tuned :)
 
