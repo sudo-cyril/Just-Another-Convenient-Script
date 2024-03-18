@@ -13,11 +13,11 @@
 - Download all the popular mods from one place.
 - Saves the hassle of searching for mods and their commands.
 - Open source and free, feel free to contribute by sending a PR (Pull Request).
-- 
+ 
 # Compatibility
 - Currently only supports windows 7/8/8.1/10 but we're working on a script for linux too 😉
 - We aren't working a port for mac as of now as none of the script writers own one :>
-- 
+
 # Prerequisites
 - A windows installation with an internet connection and Powershell is all you need :)
 # Tech
