@@ -9,7 +9,7 @@
 - Spicetify
 - CTT-WinUtil
 
-##⚡ Get started
+## ⚡ Get started
 
 ### Method 1: Fully automated
 ![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/f4df8e1a-7c3d-44a6-a6d4-91b49af8d2c8)
