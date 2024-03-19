@@ -26,7 +26,7 @@
 
 - [Vencord](https://github.com/Vendicated/Vencord) - the best mod for discord!
 - [SpotX](https://github.com/SpotX-Official/SpotX) - a minimal spotify mod to block ads.
-- [spicetify](https://github.com/spicetify) - The best spotify mod, ever (with themes).
+- [Spicetify](https://github.com/spicetify) - The best spotify mod, ever (with themes).
 - [CTT-WinUtil](https://github.com/ChrisTitusTech/winutil) - The best windows utility.
 
 And ofcourse a big thanks to github :D
