@@ -99,13 +99,34 @@ switch ($userChoice) {
                               kOOOOOOOOOOOO000000'
 
 "@ -ForegroundColor Yellow
-        Write-Host "Executing commands for [Vencord]" -ForegroundColor Yellow
-        #code which downloads the vencord_installer_cli file from the site and executes it
-        Write-Host "A new window will pop up which is the vencordCLI, do what u need to over there :)" -ForegroundColor Yellow
-        $vencordInstallerUrl = "https://github.com/Vencord/Installer/releases/latest/download/VencordInstallerCli.exe"
-        $vencordInstallerPath = "$env:TEMP\VencordInstallerCli.exe"
-        Invoke-WebRequest -Uri $vencordInstallerUrl -OutFile $vencordInstallerPath -UseBasicParsing
-        Start-Process -FilePath $vencordInstallerPath -Wait
+        Write-Host "Would you like to use the GUI installer or CLI installer?" -ForegroundColor Yellow
+        Write-Host "                                          "
+        Write-Host @"
+1 - GUI Installer
+2 - CLI Installer
+"@ -ForegroundColor Yellow
+
+        Write-Host "                                          "
+        Write-Host -NoNewLine "Your Choice : " -ForegroundColor Cyan
+        $vencordChoice = Read-Host
+
+        if ($vencordChoice -eq 1) {
+            Write-Host "A new window will pop up which is the Graphical Vencord Installer, do what u wanna do over there :)" -ForegroundColor Yellow
+            $vencordGUIurl = "https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe"
+            $vencordGUIpath = "$env:TEMP\VencordInstaller.exe"
+            Invoke-WebRequest -~Uri $vencordGUIurl -Outfile $vencordGUIpath -UseBasicParsing
+            Start-Process -FilePath $vencordGUIpath -wait
+        }
+        elseif ($vencordChoice -eq 2) {
+            Write-Host "A new window will pop up which is the Command Line Vencord Installer, do what u need to over there :)" -ForegroundColor Yellow
+            $vencordCLIurl = "https://github.com/Vencord/Installer/releases/latest/download/VencordInstallerCli.exe"
+            $vencordCLIpath = "$env:TEMP\VencordInstallerCli.exe"
+            Invoke-WebRequest -Uri $vencordCLIurl -OutFile $vencordCLIpath -UseBasicParsing
+            Start-Process -FilePath $vencordCLIpath -Wait 
+        }
+        else {
+            Write-Host "Invalid Choice. Please try again" -ForegroundColor Red
+        }
         Write-Host "                                          "
         Write-Host "OH, YOU'RE DONE ALREADY? AIGHT CYA MATE!" -ForegroundColor Yellow
     }
