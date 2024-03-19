@@ -16,12 +16,12 @@ Write-Host @"
 Write-Host "1 - [Spotx]" -ForegroundColor Green
 Write-Host "2 - [Vencord]" -ForegroundColor Yellow
 Write-Host "3 - [Spicetify]" -ForegroundColor Magenta
-Write-Host "4 - [CTT-WinUtil]" -ForegroundColor Blue 
+Write-Host "4 - [CTT-WinUtil]" -ForegroundColor Cyan
 Write-Host "                                          "
 
 
 # Prompt user for input
-Write-Host -NoNewline "Your Choice : " -ForegroundColor Cyan
+Write-Host -NoNewline "Your Choice : "
 $userChoice = Read-Host
 
 # Execute commands based on user's choice
