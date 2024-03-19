@@ -185,7 +185,7 @@ switch ($userChoice) {
     }
     4 {
         Clear-Host
-        Write-Host "Launching Chris Titus Tech's Windows Utility....." -ForegroundColor Blue
+        Write-Host "Launching Chris Titus Tech's Windows Utility....." -ForegroundColor Cyan
         Write-Host @"
         
 
