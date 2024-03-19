@@ -99,11 +99,12 @@ switch ($userChoice) {
                               kOOOOOOOOOOOO000000'
 
 "@ -ForegroundColor Yellow
+        Write-Host "NOTE : PLEASE CLOSE DISCORD COMPLETELY BEFORE INSTALLATION !!" -ForegroundColor Yellow
         Write-Host "Would you like to use the GUI installer or CLI installer?" -ForegroundColor Yellow
         Write-Host "                                          "
         Write-Host @"
-1 - GUI Installer
-2 - CLI Installer
+1 - GUI Installer (Simplest way)
+2 - CLI Installer 
 "@ -ForegroundColor Yellow
 
         Write-Host "                                          "
@@ -197,7 +198,7 @@ switch ($userChoice) {
     \|_______|   \|__|      \|__|
 
 
-"@ -ForegroundColor Blue
+"@ -ForegroundColor Cyan
         Start-Process powershell -Verb RunAs -ArgumentList "iwr -useb https://christitus.com/win | iex"
     }
     default {
