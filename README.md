@@ -12,7 +12,8 @@
 ## ⚡ Get started
 
 ### Method 1: Fully automated
-![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/f4df8e1a-7c3d-44a6-a6d4-91b49af8d2c8)
+![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/730c8f30-ba93-461a-adfa-1c4caad3d26d)
+
 - Open Windows Powershell on your system.
 - Copy the following command and paste it in your powershell window.
 ```
