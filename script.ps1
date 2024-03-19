@@ -114,7 +114,7 @@ switch ($userChoice) {
             Write-Host "A new window will pop up which is the Graphical Vencord Installer, do what u wanna do over there :)" -ForegroundColor Yellow
             $vencordGUIurl = "https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe"
             $vencordGUIpath = "$env:TEMP\VencordInstaller.exe"
-            Invoke-WebRequest -~Uri $vencordGUIurl -Outfile $vencordGUIpath -UseBasicParsing
+            Invoke-WebRequest -Uri $vencordGUIurl -Outfile $vencordGUIpath -UseBasicParsing
             Start-Process -FilePath $vencordGUIpath -wait
         }
         elseif ($vencordChoice -eq 2) {
