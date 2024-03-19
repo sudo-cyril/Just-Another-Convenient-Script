@@ -14,11 +14,11 @@
 ### Method 1: Fully automated
 ![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/f4df8e1a-7c3d-44a6-a6d4-91b49af8d2c8)
 - Open Windows Powershell on your system.
-- copy the following command and paste it in your powershell window.
+- Copy the following command and paste it in your powershell window.
 ```
 iwr -useb https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-Script/main/script.ps1 | iex
 ```
-- Press the Enter Key
+- Press the Enter Key.
 - That's about it :D
 
 ## 🚩 Features
