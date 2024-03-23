@@ -46,7 +46,7 @@ then
 "
     echo "What do u wanna do?"
     echo "1 - Install"
-    echo -e "2 - Uninstall\n"
+    echo "2 - Uninstall\n"
     echo -n "Your Choice : "
     read spotxChoice
 
@@ -54,18 +54,19 @@ then
     then
         echo "Installing Spotx..."
         echo "NOTE : Spotify should be INSTALLED"
-        bash <(curl -sSL https://spotx-official.github.io/run.sh)
+      	 bash$(curl -sSL https://spotx-official.github.io/run.sh)
         echo "                                  "
         echo "There you go. Enjoy!"
 
     elif [ $spotxChoice -eq 2 ]
     then 
         echo "Uninstalling Spotx..."
-        bash <(curl -sSL https://spotx-official.github.io/run.sh) --uninstall
+       	bash$(curl -sSL https://spotx-official.github.io/run.sh) --uninstall
     
     else 
         echo "Invalid Choice, Please Try again"
-fi
+    fi
+
 
 elif [ $userChoice -eq 2 ]
 then
@@ -99,7 +100,7 @@ then
     echo "Loading Vencord Installer...."
     sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
     echo "OH UR DONE ALREADY?, AIGHT CYA MATE!"
-fi
+
 
 elif [ $userChoice -eq 3 ]
 then
@@ -130,8 +131,7 @@ then
 "
     echo "What would you like to do?"
     echo "1 - Install"
-    echo "2 - Uninstall"
-    echo "                     "
+    echo "2 - Uninstall\n"
     echo -n "Your Choice : "
     read spicetifyChoice
 
