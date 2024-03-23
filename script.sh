@@ -1,9 +1,9 @@
 #!/bin/bash
 
 clear
-echo "
+echo -e "
 
-
+\e[5m
 ##      ## ######## ##        ######   #######  ##     ## ######## #### 
 ##  ##  ## ##       ##       ##    ## ##     ## ###   ### ##       #### 
 ##  ##  ## ##       ##       ##       ##     ## #### #### ##       #### 
@@ -11,23 +11,23 @@ echo "
 ##  ##  ## ##       ##       ##       ##     ## ##     ## ##            
 ##  ##  ## ##       ##       ##    ## ##     ## ##     ## ##       #### 
  ###  ###  ######## ########  ######   #######  ##     ## ######## ####
- 
+\e[0m
 "
 
-echo "
-1 - [Spotx]
-2 - [Vencord]
-3 - [Spicetify]
+echo -e "
+\e[32m1 - [Spotx]\e[0m
+\e[33m2 - [Vencord]\e[0m
+\e[38;5;208m3 - [Spicetify]\e[0m
 
 "
-userChoice=0
-echo -n "Your Choice : "
+
+echo -n -e "\e[36mYour Choice : \e[0m"
 read userChoice
 
 if [ $userChoice -eq 1 ]
 then
     clear
-    echo "
+    echo -e "\e[32m
         ,:::    ;:;'
         .;cllll    :lllc;'
        ,lllllll    :llllll'
@@ -46,32 +46,35 @@ then
 "
     echo "What do u wanna do?"
     echo "1 - Install"
-    echo -e "2 - Uninstall\n"
-    echo -n "Your Choice : "
+    echo "2 - Uninstall"
+    echo "              "
+    echo "NOTE : Spotify should be INSTALLED"
+    echo "              "
+    echo -n -e "\e[36mYour Choice : \e[0m"
     read spotxChoice
 
     if [ $spotxChoice -eq 1 ]
     then
-        echo "Installing Spotx..."
-        echo "NOTE : Spotify should be INSTALLED"
-      	bash$(curl -sSL https://spotx-official.github.io/run.sh)
+        echo -e "\e[32mInstalling Spotx..."
+      	bash <(curl -sSL https://spotx-official.github.io/run.sh)
         echo "                                  "
-        echo "There you go. Enjoy!"
+        echo -e "\e[32mThere you go. Enjoy!\e[0m"
 
     elif [ $spotxChoice -eq 2 ]
     then 
-        echo "Uninstalling Spotx..."
-       	bash$(curl -sSL https://spotx-official.github.io/run.sh) --uninstall
+        echo -e "\e[32mUninstalling Spotx..."
+       	bash <(curl -sSL https://spotx-official.github.io/run.sh) --uninstall
+        echo -e "\e[32mSpotX is now gone :(\e[0m"
     
     else 
-        echo "Invalid Choice, Please Try again"
+        echo -e "\e[31mInvalid Choice, Please Try again\e[0m"
     fi
 
 
 elif [ $userChoice -eq 2 ]
 then
     clear
-    echo "
+    echo -e "\e[33m
         ......              '.....  .
         XMMMK              oMMMW'  '
         NMMMK              oMMMM.
@@ -97,15 +100,15 @@ then
 
 "
     echo " NOTE : PLEASE CLOSE DISCORD COMPLETELY BEFORE DOING ANYTHING !!"
+    echo "                       "
     echo "Loading Vencord Installer...."
     sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
-    echo "OH UR DONE ALREADY?, AIGHT CYA MATE!"
-
+    echo -e "\e[33mOh You're done already?, aight cya mate!\e[0m"
 
 elif [ $userChoice -eq 3 ]
 then
     clear
-    echo "
+    echo -e "\e[38;5;208m
                            ;
                            ,d.
                            :xd
@@ -131,27 +134,30 @@ then
 "
     echo "What would you like to do?"
     echo "1 - Install"
-    echo -e "2 - Uninstall\n"
-    echo -n "Your Choice : "
+    echo -e "2 - Uninstall\e[0m"
+    echo "              "
+    echo -n -e "\e[36mYour Choice : \e[0m"
     read spicetifyChoice
 
     if [ $spicetifyChoice -eq 1 ]
     then
-        echo "Installing Spicetify..."
+        echo -e "\e[38;5;208mInstalling Spicetify..."
         curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
-        echo "There you go, Happy Modding!"
+        spicetify backup apply
+        echo -e "\e[38;5;208mNOTE : If the command "spicetify backup apply" doesn't work, just refresh your bash session and execute the command"
+        echo -e "There you go, Happy Modding!\e[0m"
 
     elif [ $spicetifyChoice -eq 2 ]
     then
-        echo "Uninstalling Spicetify..."
+        echo -e "\e[38;5;208mUninstalling Spicetify..."
         spicetify restore
         rm -rf ~/.spicetify
         rm -rf ~/.config/spicetify
-        echo "The deed has been done...Goodbye Spicetify :("
+        echo -e "\e[38;5;208mThe deed has been done...Goodbye Spicetify :(\e[0m"
     else 
-        echo "Invalid Choice, Please try again"
+        echo -e "\e[31mInvalid Choice, Please try again\e[0m"
     fi
 
 else 
-    echo "Invalid Choice, exiting script."
+    echo -e "\e[31mInvalid Choice, exiting script.\e[0m"
 fi
