@@ -46,7 +46,7 @@ then
 "
     echo "What do u wanna do?"
     echo "1 - Install"
-    echo "2 - Uninstall\n"
+    echo -e "2 - Uninstall\n"
     echo -n "Your Choice : "
     read spotxChoice
 
@@ -54,7 +54,7 @@ then
     then
         echo "Installing Spotx..."
         echo "NOTE : Spotify should be INSTALLED"
-      	 bash$(curl -sSL https://spotx-official.github.io/run.sh)
+      	bash$(curl -sSL https://spotx-official.github.io/run.sh)
         echo "                                  "
         echo "There you go. Enjoy!"
 
@@ -131,7 +131,7 @@ then
 "
     echo "What would you like to do?"
     echo "1 - Install"
-    echo "2 - Uninstall\n"
+    echo -e "2 - Uninstall\n"
     echo -n "Your Choice : "
     read spicetifyChoice
 
