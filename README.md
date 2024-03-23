@@ -1,7 +1,6 @@
 # JustAnotherConvenientScript
 ![N|terminal](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/120585028/7f9d7a99-0f6a-4ee5-977f-24bee9a216d8)
 
-
 ## _The Last Mod Installer, Ever_
 
 **This script is an all in one mod installer. Installs the following projects as per chosen:**
