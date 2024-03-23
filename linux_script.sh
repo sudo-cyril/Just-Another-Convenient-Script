@@ -46,7 +46,7 @@ then
 "
     echo "What do u wanna do?"
     echo "1 - Install"
-    #echo "2 - Uninstall"
+    echo -e "2 - Uninstall\n"
     echo -n "Your Choice : "
     read spotxChoice
 
