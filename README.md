@@ -1,5 +1,6 @@
 # JustAnotherConvenientScript
-![N|Solid](https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg?sanitize=true)
+![N|pwsh](https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg?sanitize=true) / ![N|bash](![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/120585028/18f1035a-e7ef-4239-a802-d5172967d488)
+
 ## _The Last Mod Installer, Ever_
 
 **This script is an all in one mod installer. Installs the following projects as per chosen:**
