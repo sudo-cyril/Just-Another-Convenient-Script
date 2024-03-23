@@ -5,10 +5,10 @@
 
 **This script is an all in one mod installer. Installs the following projects as per chosen:**
 
-- Vencord
-- SpotX
-- Spicetify
-- CTT-WinUtil
+- [Vencord](https://github.com/Vendicated/Vencord) - the best mod for discord!
+- [SpotX](https://github.com/SpotX-Official/SpotX) - a minimal spotify mod to block ads.
+- [Spicetify](https://github.com/spicetify) - The best spotify mod, ever (with themes).
+- [CTT-WinUtil](https://github.com/ChrisTitusTech/winutil) - The best windows utility.
 
 ## ⚡ Get started
 
@@ -37,10 +37,11 @@ iwr -useb https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-S
 
 **This script is only possible thanks to these awesome projects:**
 
-- [Vencord](https://github.com/Vendicated/Vencord) - the best mod for discord!
-- [SpotX](https://github.com/SpotX-Official/SpotX) - a minimal spotify mod to block ads.
-- [Spicetify](https://github.com/spicetify) - The best spotify mod, ever (with themes).
-- [CTT-WinUtil](https://github.com/ChrisTitusTech/winutil) - The best windows utility.
+- https://github.com/Vendicated/Vencord - Vencord
+- https://github.com/SpotX-Official/SpotX - Spotx (for Windows)
+- https://github.com/SpotX-Official/SpotX-Bash - Spotx-Bash (for Linux)
+- https://github.com/spicetify - Spicetify
+- https://github.com/ChrisTitusTech/winutil - WinUtil
 
 And ofcourse a big thanks to github :D
 
