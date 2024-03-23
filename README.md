@@ -1,5 +1,6 @@
 # JustAnotherConvenientScript
-![N|terminal](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/120585028/219ccc1c-a99d-4b48-8cb8-1338d2639c6e)
+![N|terminal](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/120585028/7f9d7a99-0f6a-4ee5-977f-24bee9a216d8)
+
 
 ## _The Last Mod Installer, Ever_
 
