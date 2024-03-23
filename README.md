@@ -38,9 +38,9 @@ curl -s https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-Scr
 - Open source and free, feel free to contribute by sending a PR (Pull Request).
  
 ## 🎧 Compatibility & Prerequisites
-- Currently only supports windows 7/8/8.1/10/11 but we're working on a script for linux too 😉 -it's here (23-3-24) 😳
+- Currently only supports windows 7/8/8.1/10/11 but we're working on a script for linux too 😉 -it's here (23-3-24)😳
 - We aren't working a port for mac as of now as none of the script writers own one :>
-- A **windows** or **linux** installation with an internet connection and Powershell is all you need :)
+- A **windows** or **linux** installation with an internet connection and terminal is all you need :)
 
 ## ⚙ Tech
 
