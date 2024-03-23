@@ -37,11 +37,11 @@ iwr -useb https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-S
 
 **This script is only possible thanks to these awesome projects:**
 
-- https://github.com/Vendicated/Vencord - Vencord
-- https://github.com/SpotX-Official/SpotX - Spotx (for Windows)
-- https://github.com/SpotX-Official/SpotX-Bash - Spotx-Bash (for Linux)
-- https://github.com/spicetify - Spicetify
-- https://github.com/ChrisTitusTech/winutil - WinUtil
+- https://github.com/Vendicated/Vencord
+- https://github.com/SpotX-Official/SpotX
+- https://github.com/SpotX-Official/SpotX-Bash
+- https://github.com/spicetify
+- https://github.com/ChrisTitusTech/winutil
 
 And ofcourse a big thanks to github :D
 
