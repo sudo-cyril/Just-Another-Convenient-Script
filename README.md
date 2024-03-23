@@ -11,7 +11,8 @@
 - [CTT-WinUtil](https://github.com/ChrisTitusTech/winutil) - The best windows utility.
 
 ## ⚡ Get started
-
+- Follow the guides given below with respect to your operating system
+## 💻 Windows
 ### Method 1: Fully automated
 ![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/730c8f30-ba93-461a-adfa-1c4caad3d26d)
 
@@ -22,16 +23,24 @@ iwr -useb https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-S
 ```
 - Press the Enter Key.
 - That's about it :D
+## 🐧 Linux
+- Open terminal and run the following command -
+```
+curl -s https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-Script/main/script.sh >tmp.sh && bash tmp.sh && rm tmp.sh
+```
+<p align="center">(or)</p>
+
+- Download and run the bash script (script.sh) from releases using ```./script.sh``` or ```bash script.sh```
 
 ## 🚩 Features
 - Download all the popular mods from one place.
 - Saves the hassle of searching for mods and their commands.
 - Open source and free, feel free to contribute by sending a PR (Pull Request).
  
-## 💻 Compatibility & Prerequisites
-- Currently only supports windows 7/8/8.1/10/11 but we're working on a script for linux too 😉
+## 🎧 Compatibility & Prerequisites
+- Currently only supports windows 7/8/8.1/10/11 but we're working on a script for linux too 😉 -it's here (23-3-24) 😳
 - We aren't working a port for mac as of now as none of the script writers own one :>
-- A windows installation with an internet connection and Powershell is all you need :)
+- A **windows** or **linux** installation with an internet connection and Powershell is all you need :)
 
 ## ⚙ Tech
 
@@ -40,12 +49,12 @@ iwr -useb https://raw.githubusercontent.com/sudo-cyril/Just-Another-Convenient-S
 - https://github.com/Vendicated/Vencord
 - https://github.com/SpotX-Official/SpotX
 - https://github.com/SpotX-Official/SpotX-Bash
-- https://github.com/spicetify
 - https://github.com/ChrisTitusTech/winutil
+- https://github.com/spicetify
 
 And ofcourse a big thanks to github :D
 
-### Alternate method
+### Alternate method (windows)
 - Download the script directly from the releases page
 - ![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/c9d27374-e5a4-4988-bbe3-8a61e8ec56df)
 - Right click and select 'Run with powershell'
