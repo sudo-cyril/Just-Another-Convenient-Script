@@ -1,5 +1,5 @@
 # JustAnotherConvenientScript
-![N|pwsh](https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg?sanitize=true)
+![N|terminal](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/120585028/219ccc1c-a99d-4b48-8cb8-1338d2639c6e)
 
 ## _The Last Mod Installer, Ever_
 
