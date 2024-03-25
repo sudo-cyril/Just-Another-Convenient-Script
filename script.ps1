@@ -37,6 +37,7 @@ function SpotxCode{
                 Write-Host "There you go. Enjoy!" -ForegroundColor Green
                 Write-Host "Press Any Key to go back to main menu"
                 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+                MainMenu
                 break
             }
             '2' {
@@ -48,17 +49,18 @@ function SpotxCode{
                 Write-Host "Spotx is now gone :(" -ForegroundColor Green
                 Write-Host "Press Any Key to go back to main menu"
                 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+                MainMenu
                 break
             }
             'b' {
                 MainMenu
+                break
             }
             default {
                 Write-Host "Invalid choice. Please select a valid option." -ForegroundColor Red
                 continue
             }
         }
-        MainMenu
     }
 }
 function VencordCode{
@@ -223,22 +225,19 @@ function MainMenu{
         Write-Host -NoNewline "Your Choice : " -ForegroundColor Cyan
         $userChoice = Read-Host
     }
-
-    return $userChoice
-}
-
-$choice = MainMenu
-
-switch ($choice) {
+    switch ($userChoice) {
     
-    '1' { SpotxCode }
-    '2' { VencordCode }
-    '3' { SpicetifyCode }
-    '4' { WinutilCode }
-    'E' { exit }
+        '1' { SpotxCode }
+        '2' { VencordCode }
+        '3' { SpicetifyCode }
+        '4' { WinutilCode }
+        'E' { exit }
+        
+        default {
+            Write-Host "Invalid Choice, Exiting Script" -ForegroundColor Red
+        }
     
-    default {
-        Write-Host "Invalid Choice, Exiting Script" -ForegroundColor Red
     }
-
 }
+
+MainMenu
