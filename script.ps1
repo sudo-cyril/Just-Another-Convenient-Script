@@ -37,7 +37,6 @@ function SpotxCode{
                 Write-Host "There you go. Enjoy!" -ForegroundColor Green
                 Write-Host "Press Any Key to go back to main menu"
                 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
-                MainMenu
                 break
             }
             '2' {
@@ -49,7 +48,6 @@ function SpotxCode{
                 Write-Host "Spotx is now gone :(" -ForegroundColor Green
                 Write-Host "Press Any Key to go back to main menu"
                 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
-                MainMenu
                 break
             }
             'b' {
@@ -60,6 +58,7 @@ function SpotxCode{
                 continue
             }
         }
+        MainMenu
     }
 }
 function VencordCode{
