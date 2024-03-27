@@ -262,6 +262,7 @@ function MainMenu{
 ##  ##  ## ##       ##       ##    ## ##     ## ##     ## ##       #### 
  ###  ###  ######## ########  ######   #######  ##     ## ######## #### 
 
+
 "@
 
     # Display prompt with options
@@ -274,6 +275,7 @@ function MainMenu{
     Write-Host "                                          "
 
     # Prompt user for input
+    Write-Host "                         "
     Write-Host -NoNewline "Your Choice : "
     $userChoice = Read-Host
 
