@@ -5,9 +5,9 @@
 
 **This script is an all in one mod installer. Installs the following projects as per chosen:**
 
-- [Vencord](https://github.com/Vendicated/Vencord) - the best mod for discord!
-- [SpotX](https://github.com/SpotX-Official/SpotX) - a minimal spotify mod to block ads.
-- [Spicetify](https://github.com/spicetify) - The best spotify mod, ever (with themes).
+- [Vencord](https://vencord.dev/) - the best mod for discord!
+- [SpotX](https://spotx.netlify.app/) - a minimal spotify mod to block ads.
+- [Spicetify](https://spicetify.app/) - The best spotify mod, ever (with themes).
 - [CTT-WinUtil](https://github.com/ChrisTitusTech/winutil) - The best windows utility.
 
 ## ⚡ Get started
