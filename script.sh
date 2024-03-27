@@ -235,7 +235,12 @@ MainMenu(){
         'A' | 'a') SpotxCode ;;
         'B' | 'b') VencordCode ;;
         'C' | 'c') SpicetifyCode ;;
-        'E' | 'e') exit 0 ;;
+        'E' | 'e') 
+            echo "     "
+            echo -e "\e[31mExiting Script...."
+            echo -e "Bye!\e[0m"
+            exit 0 
+            ;;
         *) echo -e "\e[31mInvalid Choice, Exiting Script\e[0m" ;;
     esac
 }
