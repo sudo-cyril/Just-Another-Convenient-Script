@@ -14,7 +14,8 @@
 - Follow the guides given below with respect to your operating system
 ## 💻 Windows
 ### Method 1: Fully automated
-![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/730c8f30-ba93-461a-adfa-1c4caad3d26d)
+![image](https://github.com/sudo-cyril/Just-Another-Convenient-Script/assets/58302941/8f4fe75d-0469-4ff3-9496-7b8b6d6413ff)
+
 
 - Open Windows Powershell on your system.
 - Copy the following command and paste it in your powershell window.
